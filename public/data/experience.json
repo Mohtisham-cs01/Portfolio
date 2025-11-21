@@ -1,0 +1,23 @@
+[
+  {
+    "id": "exp1",
+    "date": "2021 - Present",
+    "title": "CTO & Co-Founder",
+    "company": "TechStart Inc.",
+    "description": "Leading product development and engineering team to build innovative SaaS solutions."
+  },
+  {
+    "id": "exp2",
+    "date": "2019 - 2021",
+    "title": "Senior Full-Stack Developer",
+    "company": "Digital Solutions Ltd.",
+    "description": "Architected and developed enterprise-level applications for Fortune 500 clients."
+  },
+  {
+    "id": "exp3",
+    "date": "2017 - 2019",
+    "title": "Frontend Developer",
+    "company": "Creative Agency",
+    "description": "Built responsive web applications and improved user experience for various clients."
+  }
+]

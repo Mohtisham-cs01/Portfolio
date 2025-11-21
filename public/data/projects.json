@@ -1,0 +1,23 @@
+[
+  {
+    "id": "project1",
+    "title": "E-Commerce Platform",
+    "description": "A scalable e-commerce solution serving 10k+ daily users with real-time inventory management.",
+    "image": "https://picsum.photos/seed/project1/400/200.jpg",
+    "tags": ["React", "Node.js", "MongoDB", "AWS"]
+  },
+  {
+    "id": "project2",
+    "title": "AI Analytics Dashboard",
+    "description": "Machine learning powered analytics platform providing actionable insights for businesses.",
+    "image": "https://picsum.photos/seed/project2/400/200.jpg",
+    "tags": ["Python", "TensorFlow", "Vue.js", "PostgreSQL"]
+  },
+  {
+    "id": "project3",
+    "title": "Social Networking App",
+    "description": "Mobile-first social platform with real-time messaging and content sharing features.",
+    "image": "https://picsum.photos/seed/project3/400/200.jpg",
+    "tags": ["React Native", "Firebase", "Redux", "WebRTC"]
+  }
+]

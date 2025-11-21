@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "Getting Started with React Hooks",
+        "category": "Tutorial",
+        "excerpt": "Learn how to use React Hooks to simplify your component logic and write cleaner code.",
+        "content": "<h2>What are React Hooks?</h2><p>React Hooks are functions that let you use state and other React features in functional components. They were introduced in React 16.8 and have since become a fundamental part of modern React development.</p><h3>Why Use Hooks?</h3><ul><li>No need for class components</li><li>Better code organization</li><li>Easier to share stateful logic</li><li>Improved performance</li></ul><blockquote>Hooks let you use more of React's features without classes.</blockquote><h3>Common Hooks</h3><p>The most commonly used hooks are:</p><ul><li><code>useState</code> - for managing component state</li><li><code>useEffect</code> - for side effects</li><li><code>useContext</code> - for consuming context</li><li><code>useReducer</code> - for complex state logic</li></ul><p>Start with these hooks and gradually explore others as you become more comfortable with the concept.</p>",
+        "image": "https://picsum.photos/seed/react-hooks/800/400.jpg",
+        "date": "2024-01-15",
+        "readTime": 5
+    },
+    {
+        "id": 2,
+        "title": "The Future of Web Development",
+        "category": "Technology",
+        "excerpt": "Exploring emerging trends and technologies that will shape the future of web development.",
+        "content": "<h2>Introduction</h2><p>Web development is constantly evolving, with new technologies and paradigms emerging regularly. Let's explore what the future holds.</p><h3>Key Trends</h3><ol><li><strong>AI Integration</strong> - AI-powered development tools</li><li><strong>WebAssembly</strong> - Near-native performance in the browser</li><li><strong>JAMstack</strong> - JavaScript, APIs, and Markup architecture</li><li><strong>Progressive Web Apps</strong> - App-like experiences on the web</li></ol><p>These trends are not just buzzwords; they represent real shifts in how we build and deploy web applications.</p>",
+        "image": "https://picsum.photos/seed/future-web/800/400.jpg",
+        "date": "2024-01-10",
+        "readTime": 7
+    },
+    {
+        "id": 3,
+        "title": "Building a Scalable Startup Tech Stack",
+        "category": "Business",
+        "excerpt": "A guide to choosing the right technologies for your startup's growth journey.",
+        "content": "<h2>Choosing Your Tech Stack</h2><p>When building a startup, your technology choices can make or break your success. Here's how to choose wisely.</p><h3>Considerations</h3><ul><li>Team expertise</li><li>Scalability requirements</li><li>Time to market</li><li>Cost considerations</li></ul><p>Remember: The best tech stack is one that your team can effectively use to deliver value to customers quickly.</p>",
+        "image": "https://picsum.photos/seed/startup-tech/800/400.jpg",
+        "date": "2024-01-05",
+        "readTime": 6
+    }
+]

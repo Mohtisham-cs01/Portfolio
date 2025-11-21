@@ -1,0 +1,38 @@
+[
+  {
+    "id": "skill1",
+    "icon": "fas fa-code",
+    "title": "Frontend Development",
+    "description": "React, Vue, TypeScript, Tailwind CSS, Next.js"
+  },
+  {
+    "id": "skill2",
+    "icon": "fas fa-server",
+    "title": "Backend Development",
+    "description": "Node.js, Python, PostgreSQL, MongoDB, GraphQL"
+  },
+  {
+    "id": "skill3",
+    "icon": "fas fa-cloud",
+    "title": "Cloud & DevOps",
+    "description": "AWS, Docker, Kubernetes, CI/CD, Terraform"
+  },
+  {
+    "id": "skill4",
+    "icon": "fas fa-mobile-alt",
+    "title": "Mobile Development",
+    "description": "React Native, Flutter, iOS, Android"
+  },
+  {
+    "id": "skill5",
+    "icon": "fas fa-chart-line",
+    "title": "Product Strategy",
+    "description": "Market Research, MVP Development, Growth Hacking"
+  },
+  {
+    "id": "skill6",
+    "icon": "fas fa-users",
+    "title": "Team Leadership",
+    "description": "Agile Methodology, Project Management, Mentoring"
+  }
+]
