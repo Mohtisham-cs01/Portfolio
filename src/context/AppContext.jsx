@@ -21,7 +21,7 @@ export const AppProvider = ({ children }) => {
     image: '',
     content: ''
   });
-  const [isAdmin, setIsAdmin] = useState(false);
+  // const [isAdmin, setIsAdmin] = useState(false);
 
   useEffect(() => {
     const loadData = async (key, path) => {
@@ -48,19 +48,19 @@ export const AppProvider = ({ children }) => {
     setTheme(prevTheme => (prevTheme === 'light' ? 'dark' : 'light'));
   };
 
-  const login = async (password) => {
-    const response = await fetch('/admin.json');
-    const data = await response.json();
-    if (password === data.password) {
-      setIsAdmin(true);
-      return true;
-    }
-    return false;
-  };
+  // const login = async (password) => {
+  //   const response = await fetch('/admin.json');
+  //   const data = await response.json();
+  //   if (password === data.password) {
+  //     setIsAdmin(true);
+  //     return true;
+  //   }
+  //   return false;
+  // };
 
-  const logout = () => {
-    setIsAdmin(false);
-  };
+  // const logout = () => {
+  //   setIsAdmin(false);
+  // };
 
   const handleFilterClick = (category) => {
     setCurrentFilter(category);
@@ -95,7 +95,7 @@ export const AppProvider = ({ children }) => {
     };
     const updatedPosts = [post, ...blogPosts];
     setBlogPosts(updatedPosts);
-    localStorage.setItem('blogPosts', JSON.stringify(updatedPosts));
+    // localStorage.setItem('blogPosts', JSON.stringify(updatedPosts));
     navigate('/blog');
     setNewPost({
       title: '',
@@ -119,20 +119,20 @@ export const AppProvider = ({ children }) => {
       post.category.toLowerCase().includes(searchTerm.toLowerCase())
     );
 
-  const updateProjects = (newProjects) => {
-    setProjects(newProjects);
-    localStorage.setItem('projects', JSON.stringify(newProjects));
-  }
+  // const updateProjects = (newProjects) => {
+  //   setProjects(newProjects);
+  //   localStorage.setItem('projects', JSON.stringify(newProjects));
+  // }
   
-    const updateSkills = (newSkills) => {
-    setSkills(newSkills);
-    localStorage.setItem('skills', JSON.stringify(newSkills));
-  }
+  //   const updateSkills = (newSkills) => {
+  //   setSkills(newSkills);
+  //   localStorage.setItem('skills', JSON.stringify(newSkills));
+  // }
 
-  const updateExperience = (newExperience) => {
-    setExperience(newExperience);
-    localStorage.setItem('experience', JSON.stringify(newExperience));
-  }
+  // const updateExperience = (newExperience) => {
+  //   setExperience(newExperience);
+  //   localStorage.setItem('experience', JSON.stringify(newExperience));
+  // }
 
 
   const value = {
@@ -142,16 +142,16 @@ export const AppProvider = ({ children }) => {
     projects,
     skills,
     experience,
-    updateProjects,
-    updateSkills,
-    updateExperience,
+    // updateProjects,
+    // updateSkills,
+    // updateExperience,
     currentFilter,
     searchTerm,
     currentPost,
     newPost,
-    isAdmin,
-    login,
-    logout,
+    // isAdmin,
+    // login,
+    // logout,
     handleFilterClick,
     handleSearch,
     viewPost,

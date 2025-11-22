@@ -22,9 +22,9 @@ const Blog = () => {
                             <i className="fas fa-search"></i>
                             <input type="text" id="blogSearch" placeholder="Search posts..." onChange={handleSearch} />
                         </div>
-                        <Link to="/blog/new" className="btn btn-primary">
+                        {/* <Link to="/blog/new" className="btn btn-primary">
                             <i className="fas fa-plus"></i> New Post
-                        </Link>
+                        </Link> */}
                     </div>
                 </div>
                 <div className="category-filter">

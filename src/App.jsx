@@ -22,7 +22,7 @@ function App() {
         <Route path="skills" element={<Skills />} />
         <Route path="projects" element={<Projects />} />
         <Route path="blog" element={<Blog />} />
-        <Route path="blog/new" element={<NewPost />} />
+        {/* <Route path="blog/new" element={<NewPost />} /> */}
         <Route path="blog/:postId" element={<BlogPost />} />
         <Route path="experience" element={<Experience />} />
         <Route path="contact" element={<Contact />} />
