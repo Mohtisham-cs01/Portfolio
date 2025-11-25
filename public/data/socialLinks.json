@@ -1,0 +1,22 @@
+[
+  {
+    "name": "GitHub",
+    "icon": "fab fa-github",
+    "url": "https://github.com/your-profile"
+  },
+  {
+    "name": "LinkedIn",
+    "icon": "fab fa-linkedin",
+    "url": "https://linkedin.com/in/your-profile"
+  },
+  {
+    "name": "Twitter",
+    "icon": "fab fa-twitter",
+    "url": "https://twitter.com/your-profile"
+  },
+  {
+    "name": "Dribbble",
+    "icon": "fab fa-dribbble",
+    "url": "https://dribbble.com/your-profile"
+  }
+]
