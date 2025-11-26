@@ -1,23 +1,30 @@
 [
   {
     "id": "exp1",
-    "date": "2021 - Present",
-    "title": "CTO & Co-Founder",
-    "company": "TechStart Inc.",
-    "description": "Leading product development and engineering team to build innovative SaaS solutions."
+    "date": "2020 - Present",
+    "title": "Software Engineer — SaaS Product and freelance Development",
+    "company": "Independent / Startup Mode",
+    "description": "Building SaaS-style problem-solving products, exploring AI integrations, automation workflows, and modern full-stack architectures."
   },
   {
     "id": "exp2",
-    "date": "2019 - 2021",
-    "title": "Senior Full-Stack Developer",
-    "company": "Digital Solutions Ltd.",
-    "description": "Architected and developed enterprise-level applications for Fortune 500 clients."
+    "date": "2023",
+    "title": ".NET Developer Intern",
+    "company": "Tech Solutions",
+    "description": "Worked on CRM modules, Blazor components, and .NET WebAPI endpoints. Improved feature efficiency, fixed bugs, and contributed to a production-grade internal product."
+  },
+  {
+    "id": "exp2",
+    "date": "2023 - Present",
+    "title": "KAZ Technologies",
+    "company": "Tech Solutions",
+    "description": "Worked on CRM modules, Blazor components, and .NET WebAPI endpoints. Improved feature efficiency, fixed bugs, and contributed to a production-grade internal product."
   },
   {
     "id": "exp3",
-    "date": "2017 - 2019",
-    "title": "Frontend Developer",
-    "company": "Creative Agency",
-    "description": "Built responsive web applications and improved user experience for various clients."
+    "date": "University Projects",
+    "title": "Full-Stack & AI Projects",
+    "company": "Academic",
+    "description": "Developed multiple academic and personal projects including a .NET-based web application, AI-assisted automation tools, and small-scale ML experiments."
   }
 ]

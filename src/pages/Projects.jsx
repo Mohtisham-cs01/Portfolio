@@ -11,6 +11,7 @@ const Projects = () => {
 //   }, []);
 useEffect(() => {
     setProjects(projectsData);
+    console.log(projectsData)
   }, []);
 
   return (

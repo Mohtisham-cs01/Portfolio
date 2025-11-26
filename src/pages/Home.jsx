@@ -7,7 +7,7 @@ const Home = () => {
       <section className="hero">
           <div className="hero-content">
               <div className="hero-text">
-                  <h1>Hi, I'm <span className="gradient-text">Alex Chen</span></h1>
+                  <h1>Hi, I'm <span className="gradient-text">M. Muhtasham</span></h1>
                   <p className="subtitle">Full-Stack Developer & Entrepreneur</p>
                   <p>Building innovative solutions at the intersection of technology and business. Passionate about creating products that make a difference.</p>
                   <div className="hero-buttons">
@@ -28,7 +28,7 @@ const Home = () => {
                       </div>
                       <div className="code-content">
                           <div className="code-line"><span style={{color: "#f472b6"}}>const</span> <span style={{color: "#60a5fa"}}>developer</span> = {'{'}</div>
-                          <div className="code-line">  <span style={{color: "#fbbf24"}}>name</span>: <span style={{color: "#86efac"}}>"Alex Chen"</span>,</div>
+                          <div className="code-line">  <span style={{color: "#fbbf24"}}>name</span>: <span style={{color: "#86efac"}}>"M. Muhtasham"</span>,</div>
                           <div className="code-line">  <span style={{color: "#fbbf24"}}>role</span>: <span style={{color: "#86efac"}}>"Full-Stack Developer"</span>,</div>
                           <div className="code-line">  <span style={{color: "#fbbf24"}}>passion</span>: <span style={{color: "#86efac"}}>"Building cool stuff"</span>,</div>
                           <div className="code-line">  <span style={{color: "#fbbf24"}}>status</span>: <span style={{color: "#86efac"}}>"Always learning"</span></div>

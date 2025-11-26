@@ -16,7 +16,7 @@ const About = () => {
                 </div>
                 <div className="about-text">
                     <h3>Building the Future, One Line at a Time</h3>
-                    <p>With over 8 years of experience in software development and entrepreneurship, I've had the privilege of working with startups and established companies to bring innovative ideas to life.</p>
+                    <p>With over 5 years of experience in software development and entrepreneurship, I've had the privilege of working with startups and established companies to bring innovative ideas to life.</p>
                     <p>My journey began with a curiosity about how things work and evolved into a passion for creating solutions that solve real-world problems. I believe in the power of technology to transform businesses and improve lives.</p>
                     <div className="stats">
                         <div className="stat">
@@ -24,7 +24,7 @@ const About = () => {
                             <div className="stat-label">Projects Delivered</div>
                         </div>
                         <div className="stat">
-                            <div className="stat-number">8+</div>
+                            <div className="stat-number">5+</div>
                             <div className="stat-label">Years Experience</div>
                         </div>
                         <div className="stat">

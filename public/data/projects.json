@@ -1,23 +1,73 @@
 [
   {
+    "id": "project0",
+    "title": "AI Stock-Media Content Creator",
+    "description": "A next-gen content creation tool that searches stock media, trending news visuals, historical footage, and generates imaginative AI scenes — then auto-syncs everything with narration to produce ready-to-publish short videos.",
+    "image": "https://picsum.photos/seed/project7/400/200.jpg",
+    "tags": [
+      "Python",
+      "whisper",
+      "LLM",
+      "Pexels API",
+      "FFmpeg",
+      "AI Automation"
+    ]
+  },
+  {
     "id": "project1",
-    "title": "E-Commerce Platform",
-    "description": "A scalable e-commerce solution serving 10k+ daily users with real-time inventory management.",
+    "title": "Smart Subtitle Generator",
+    "description": "An AI-powered tool that automatically generates accurate subtitles for videos — ideal for enhancing accessibility and multilingual support.",
     "image": "https://picsum.photos/seed/project1/400/200.jpg",
-    "tags": ["React", "Node.js", "MongoDB", "AWS"]
+    "tags": [
+      "Python",
+      "whisperX",
+      "video processing"
+    ]
   },
   {
     "id": "project2",
-    "title": "AI Analytics Dashboard",
-    "description": "Machine learning powered analytics platform providing actionable insights for businesses.",
+    "title": "Universal Video Translator",
+    "description": "A content creation tool using stock media and AI that translates audio and video — enabling global audience reach with translated content and voiceovers.",
     "image": "https://picsum.photos/seed/project2/400/200.jpg",
-    "tags": ["Python", "TensorFlow", "Vue.js", "PostgreSQL"]
+    "tags": [
+      "Python",
+      "whisperX",
+      "edge-tts",
+      "FFmpeg"
+    ]
   },
   {
     "id": "project3",
-    "title": "Social Networking App",
-    "description": "Mobile-first social platform with real-time messaging and content sharing features.",
+    "title": "Clip Composer & Editor",
+    "description": "A drag-and-drop video clip combiner that helps you create polished video content by merging, ordering, and trimming clips with ease — perfect for quick content creation.",
     "image": "https://picsum.photos/seed/project3/400/200.jpg",
-    "tags": ["React Native", "Firebase", "Redux", "WebRTC"]
+    "tags": [
+      "Python",
+      "moviepy",
+      "FFmpeg"
+    ]
+  },
+  {
+    "id": "project4",
+    "title": "Modern E-commerce Platform",
+    "description": "An all-in-one full-stack e-commerce solution with admin dashboard, inventory management and user notifications — ready to power scalable online stores.",
+    "image": "https://picsum.photos/seed/project4/400/200.jpg",
+    "tags": [
+      ".NET Core",
+      "MS SQL",
+      "Entity Framework",
+      "jQuery"
+    ]
+  },
+  {
+    "id": "project5",
+    "title": "Freight Dispatch Portal",
+    "description": "A dispatch and logistics web-app designed for freight companies to manage shipments, clients and operations — optimized for real-world logistics workflow.",
+    "image": "https://picsum.photos/seed/project5/400/200.jpg",
+    "tags": [
+      "JavaScript",
+      "Web",
+      "Logistics"
+    ]
   }
 ]

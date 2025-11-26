@@ -3,36 +3,30 @@
     "id": "skill1",
     "icon": "fas fa-code",
     "title": "Frontend Development",
-    "description": "React, Vue, TypeScript, Tailwind CSS, Next.js"
+    "description": "React, Next.js, Blazor, JavaScript, Tailwind CSS"
   },
   {
     "id": "skill2",
     "icon": "fas fa-server",
     "title": "Backend Development",
-    "description": "Node.js, Python, PostgreSQL, MongoDB, GraphQL"
+    "description": ".NET WebAPI, Node.js, Python, SQL, Authentication & Authorization"
   },
   {
     "id": "skill3",
-    "icon": "fas fa-cloud",
-    "title": "Cloud & DevOps",
-    "description": "AWS, Docker, Kubernetes, CI/CD, Terraform"
+    "icon": "fas fa-plug",
+    "title": "API Design",
+    "description": "RESTful API architecture, clean endpoints, versioning, documentation (Swagger)"
   },
   {
     "id": "skill4",
-    "icon": "fas fa-mobile-alt",
-    "title": "Mobile Development",
-    "description": "React Native, Flutter, iOS, Android"
+    "icon": "fas fa-brain",
+    "title": "AI System Design",
+    "description": "Prompt engineering, LLM workflows, automation pipelines, AI-assisted content generation"
   },
   {
     "id": "skill5",
-    "icon": "fas fa-chart-line",
-    "title": "Product Strategy",
-    "description": "Market Research, MVP Development, Growth Hacking"
-  },
-  {
-    "id": "skill6",
-    "icon": "fas fa-users",
-    "title": "Team Leadership",
-    "description": "Agile Methodology, Project Management, Mentoring"
+    "icon": "fas fa-robot",
+    "title": "Chatbot Development",
+    "description": "LLM-based chatbots, RAG pipelines, workflow automation, conversational UX"
   }
 ]
