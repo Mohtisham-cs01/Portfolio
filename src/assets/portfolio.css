@@ -1058,7 +1058,11 @@ footer {
     }
 
     .hero-content {
-        grid-template-columns: 1fr;
+        /* grid-template-columns: 1fr; */
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        flex-direction: column-reverse;
         text-align: center;
     }
 
@@ -1142,3 +1146,8 @@ footer {
 .toast.show {
     transform: translateX(0);
 }
+  @media screen and (max-width: 960px) {
+    .projects-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+  }

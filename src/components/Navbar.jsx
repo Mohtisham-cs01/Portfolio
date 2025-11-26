@@ -1,18 +1,23 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { AppContext } from '../context/AppContext';
 import '../assets/Navbar.css';
 
 const Navbar = () => {
   const { theme, toggleTheme } = useContext(AppContext);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
 
   return (
     <nav id="navbar">
       <div className="nav-container">
         <NavLink to="/" className="logo">
-          AC
+          M
         </NavLink>
-        <div className="nav-links" id="navLinks">
+        <div className={`nav-links ${isMobileMenuOpen ? 'active' : ''}`} id="navLinks">
           <NavLink to="/" className="nav-link" activeClassName="active" exact>
             Home
           </NavLink>
@@ -38,8 +43,12 @@ const Navbar = () => {
             <i className={`fas ${theme === 'light' ? 'fa-moon' : 'fa-sun'}`}></i>
           </button>
         </div>
-        <button className="mobile-menu-toggle" id="mobileMenuToggle">
-          <i className="fas fa-bars"></i>
+        <button className="mobile-menu-toggle" id="mobileMenuToggle" onClick={toggleMobileMenu}>
+          <div className={`hamburger ${isMobileMenuOpen ? 'is-active' : ''}`}>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </button>
       </div>
     </nav>
