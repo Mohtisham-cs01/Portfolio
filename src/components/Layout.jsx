@@ -2,6 +2,8 @@ import React from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import { Outlet } from 'react-router-dom';
+import FloatingActionBar from './FloatingActionBar';
+import '../assets/FloatingActionBar.css';
 
 const Layout = () => {
   return (
@@ -11,6 +13,7 @@ const Layout = () => {
         <Outlet />
       </main>
       <Footer />
+      <FloatingActionBar />
     </>
   );
 };
