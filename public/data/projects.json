@@ -69,5 +69,21 @@
       "Web",
       "Logistics"
     ]
+  },
+  {
+  "id": "project6",
+  "title": "AI-Powered German Reading Assistant",
+  "description": "An intelligent web app that leverages cutting-edge LLMs to generate personalized German reading content. Users can practice any level (A1–C2), explore topic-based scenarios, and listen to AI-narrated text — merging language learning with AI-driven content creation.",
+  "image": "https://picsum.photos/seed/germanpractice/400/200.jpg",
+  "tags": [
+    "Python",
+    "JavaScript",
+    "LLM",
+    "AI Content Generation",
+    "Text-to-Speech",
+    "Web App",
+    "Language Learning",
+    "API Integration"
+  ]
   }
 ]
