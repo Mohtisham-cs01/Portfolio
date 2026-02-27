@@ -21,7 +21,7 @@ const Contact = () => {
                 <div className="contact-content">
                     <p>Whether you have a project in mind or just want to chat about technology, feel free to reach out!</p>
                     <div className="hero-buttons" style={{ justifyContent: "center", marginTop: "2rem" }}>
-                        <a href="mailto:alex@example.com" className="btn btn-primary">
+                        <a href="mailto:mohtisham138@gmail.com" className="btn btn-primary">
                             <i className="fas fa-envelope"></i> Send Email
                         </a>
                         <a href="/cv.txt" className="btn btn-secondary" download>
