@@ -1,5 +1,48 @@
 [
   {
+    "id": "project7",
+    "title": "LifeWeaver",
+    "description": "An app that rescues fading memories and weaves scattered messages and photos into the story of a life. Features media cleaning and voice-note transcription, an AI-assisted daily journal exportable as PDF, AI-narrated life chapters and relationship arcs, facial recognition across photos, and privacy-controlled chapter sharing. Backend architected with FastAPI and Celery for async task processing, backed by PostgreSQL, deployed on AWS to support 1,000+ concurrent users.",
+    "image": "https://picsum.photos/seed/lifeweaver/400/200.jpg",
+    "tags": [
+      "FastAPI",
+      "Celery",
+      "PostgreSQL",
+      "AWS",
+      "Facial Recognition",
+      "LLM",
+      "AI Agents"
+    ]
+  },
+  {
+    "id": "project8",
+    "title": "CRM Platform",
+    "description": "A customer relationship management system built with .NET Core and Blazor, covering customer/contact management, data tracking, and dashboard views — backed by Entity Framework and SQL Server for data persistence.",
+    "image": "https://picsum.photos/seed/crmplatform/400/200.jpg",
+    "tags": [
+      ".NET Core",
+      "Blazor",
+      "Entity Framework",
+      "SQL Server",
+      "C#"
+    ]
+  },
+  {
+    "id": "project9",
+    "title": "AI Research Agent",
+    "description": "An AI research agent that grounds LLM responses in real-time web data instead of relying on static training knowledge. Searches the web via DuckDuckGo, crawls and extracts real page content with Crawl4AI, then generates fact-checked answers from that live data. Supports a user-selectable LLM backend — cloud API via Pollinations AI, or local/offline via Ollama running Qwen2.5:14B — depending on speed, cost, or privacy needs.",
+    "image": "https://picsum.photos/seed/researchagent/400/200.jpg",
+    "tags": [
+      "Python",
+      "LLM",
+      "DuckDuckGo",
+      "Crawl4AI",
+      "Ollama",
+      "Qwen2.5",
+      "Pollinations AI"
+    ]
+  },
+  {
     "id": "project0",
     "title": "AI Stock-Media Content Creator",
     "description": "A next-gen content creation tool that searches stock media, trending news visuals, historical footage, and generates imaginative AI scenes — then auto-syncs everything with narration to produce ready-to-publish short videos.",
@@ -72,19 +115,19 @@
     ]
   },
   {
-  "id": "project6",
-  "title": "AI-Powered German Reading Assistant",
-  "description": "An intelligent web app that leverages cutting-edge LLMs to generate personalized German reading content. Users can practice any level (A1–C2), explore topic-based scenarios, and listen to AI-narrated text — merging language learning with AI-driven content creation.",
-  "image": "https://picsum.photos/seed/germanpractice/400/200.jpg",
-  "tags": [
-    "Python",
-    "JavaScript",
-    "LLM",
-    "AI Content Generation",
-    "Text-to-Speech",
-    "Web App",
-    "Language Learning",
-    "API Integration"
-  ]
+    "id": "project6",
+    "title": "AI-Powered German Reading Assistant",
+    "description": "An intelligent web app that leverages cutting-edge LLMs to generate personalized German reading content. Users can practice any level (A1–C2), explore topic-based scenarios, and listen to AI-narrated text — merging language learning with AI-driven content creation.",
+    "image": "https://picsum.photos/seed/germanpractice/400/200.jpg",
+    "tags": [
+      "Python",
+      "JavaScript",
+      "LLM",
+      "AI Content Generation",
+      "Text-to-Speech",
+      "Web App",
+      "Language Learning",
+      "API Integration"
+    ]
   }
 ]
